@@ -13,6 +13,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.dhikaputra.test_git.ui.theme.Test_gitTheme
 
 class MainActivity : ComponentActivity() {
+
+    private val halo = "halo"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
